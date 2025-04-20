@@ -1,12 +1,7 @@
 FROM n8nio/n8n:latest
 
-# Configuración de variables de entorno
-ENV N8N_BASIC_AUTH_ACTIVE=true
-ENV N8N_BASIC_AUTH_USER=DavidT
-ENV N8N_BASIC_AUTH_PASSWORD=Titanappdev
-
-# Puerto por defecto
+# Exponer el puerto 5678
 EXPOSE 5678
 
-# Ejecutar n8n cuando se inicie el contenedor
+# Usar las variables de entorno configuradas en Railway
 CMD ["n8n"]
