@@ -1,1 +1,15 @@
-npm init -y
+{
+  "name": "n8n-project",
+  "version": "1.0.0",
+  "description": "Automatización de flujos con n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n"
+  },
+  "dependencies": {
+    "n8n": "^0.230.0"
+  },
+  "author": "DavidT",
+  "license": "MIT"
+}
+
